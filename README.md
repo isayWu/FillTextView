@@ -1,3 +1,6 @@
 # FullTextView
-TextView填满一行
-单独
+TextView填满每行，实现排版整齐
+
+## 效果图对比
+
+
