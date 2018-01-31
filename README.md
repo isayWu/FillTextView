@@ -5,6 +5,21 @@ TextView填满每行，实现排版整齐
 ![](https://raw.githubusercontent.com/isayWu/FullTextView/master/%E6%95%88%E6%9E%9C%E5%9B%BE.png)
 
 
+上图对应的代码是:
+```
+    <TextView
+        android:id="@+id/tv_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp" />
+
+    <two.isay.com.simpletext.text.FillTextView
+        android:id="@+id/tv_fill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp" />
+```
+
 ## 使用方法：
 1.  将FillTextView.java下载，并拷贝到自己的工程项， 然后就可以在布局文件中直接使用。
 
